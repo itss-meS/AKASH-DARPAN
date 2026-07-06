@@ -129,13 +129,13 @@ Want to see the whole pipeline react to *different sky conditions* without touch
 
 ```mermaid
 flowchart LR
-    A[SH-WFS Frame] --> B[Centroiding\nwindowed CoG]
-    B --> C[Slope Vector]
-    C --> D[Zernike Reconstruction\nD† pseudo-inverse]
-    D --> E[Wavefront W(x,y)]
-    D --> F[r₀ / τ₀\nNoll · Fried]
-    E --> G[DM Command Mapping\nGaussian influence matrix]
-    F --> H[Dashboard\nImGui + ImPlot]
+    A["SH-WFS Frame"] --> B["Centroiding<br/>windowed CoG"]
+    B --> C["Slope Vector"]
+    C --> D["Zernike Reconstruction<br/>D-dagger pseudo-inverse"]
+    D --> E["Wavefront W x,y"]
+    D --> F["r0 / tau0<br/>Noll · Fried"]
+    E --> G["DM Command Mapping<br/>Gaussian influence matrix"]
+    F --> H["Dashboard<br/>ImGui + ImPlot"]
     G --> H
     E --> H
 ```
