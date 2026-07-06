@@ -26,23 +26,9 @@ All within a **< 5 ms processing budget** per frame.
 
 ---
 
-## Screenshots (Dashboard Layout)
+## Dashboard Screenshot
 
-```
-┌──────────────────────────── MISSION CONSOLE ───────────────────────────────┐
-│ ▶ PLAY  ◄ ►  ↺   Speed 1.0x   Thresh 30   Frame 042/200   [Load Sequence] │
-├─────────────────┬───────────────────────┬──────────────────────────────────┤
-│  RAW SPOT FEED  │   WAVEFRONT  W(x,y)   │   DM ACTUATOR GRID  9×9          │
-│  + centroids    │   Jet colour map       │   Fried geometry                 │
-│  + slopes       │   Phase colour bar     │   Coupling slider + glow         │
-│  + reference    │   Pupil overlay        ├──────────────────────────────────┤
-│                 │                        │   ZERNIKE MODES  (15 bars)       │
-├─────────────────┴───────────────────────┼──────────────────────────────────┤
-│  ATMOSPHERIC TELEMETRY                  │   SYSTEM PERFORMANCE [HPC]       │
-│  r₀ / τ₀ / RMS scrolling plots         │   Loop budget  |  Timing chart    │
-│  r₀  τ₀  σ_φ  Seeing summary box       │   I/O CoG Recon DM  |  FPS       │
-└─────────────────────────────────────────┴──────────────────────────────────┘
-```
+![Dashboard screenshot](docs/Screenshot%202026-07-06%20212223.png)
 
 ---
 
@@ -132,4 +118,3 @@ AKASH-DARPAN/
 
 ---
 
-*AKASH-DARPAN © 2024 — Developed for ISRO AO Research*
