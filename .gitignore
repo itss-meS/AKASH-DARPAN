@@ -1,0 +1,37 @@
+# ── Build artefacts ───────────────────────────────────────
+build/
+cmake-build-*/
+*.o *.a *.so *.dll *.lib *.exe *.out
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_CPack_Packages/
+
+# ── Third-party (auto-generated / downloaded) ─────────────
+third_party/glad/
+third_party/imgui/
+third_party/implot/
+third_party/stb/
+
+# ── Runtime outputs ───────────────────────────────────────
+akash_darpan_telemetry.csv
+akash_calibration.bin
+data/
+*.bmp
+*.png
+
+# ── IDE / editor ──────────────────────────────────────────
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+compile_commands.json
+*.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
